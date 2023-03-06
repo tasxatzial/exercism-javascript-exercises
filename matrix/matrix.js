@@ -1,7 +1,7 @@
 export class Matrix {
   constructor(s) {
     this.matrix = s.split('\n').map(line =>
-      line.split(/\s/).map(x => parseInt(x, 10))
+      line.split(/\s/).map(Number)
     );
   }
 
