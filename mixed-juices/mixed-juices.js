@@ -14,17 +14,13 @@ export function timeToMixJuice(name) {
   switch(name) {
     case 'Pure Strawberry Joy':
       return 0.5;
-      break;
     case 'Energizer':
     case 'Green Garden':
       return 1.5;
-      break;
     case 'Tropical Island':
       return 3;
-      break;
     case 'All or Nothing':
       return 5;
-      break;
     default:
       return 2.5;
   }
@@ -40,9 +36,9 @@ export function timeToMixJuice(name) {
  */
 export function limesToCut(wedgesNeeded, limes) {
   let cutWedges = 0;
-  let limesIdx = 0;
-  while (cutWedges < wedgesNeeded && limesIdx < limes.length) {
-    switch(limes[limesIdx]) {
+  let idx = 0;
+  while (cutWedges < wedgesNeeded && idx < limes.length) {
+    switch(limes[idx]) {
       case 'small':
         cutWedges += 6;
         break;
@@ -53,9 +49,9 @@ export function limesToCut(wedgesNeeded, limes) {
         cutWedges += 10;
         break;
     }
-    limesIdx++;
+    idx++;
   }
-  return limesIdx;
+  return idx;
 }
 
 /**
