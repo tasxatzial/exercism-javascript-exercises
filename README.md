@@ -1,7 +1,3 @@
-# Exercism solutions (JavaScript)
+# Exercism solutions ([JavaScript track](https://exercism.org/tracks/javascript))
 
-[Exercism](https://exercism.org/) is an online, open-source, free coding platform that offers code practice and mentorship on {N} different programming languages.
-
----
-
-See the JavaScript track [here](https://exercism.org/tracks/javascript).
+[Exercism](https://exercism.org/) is an online, open-source, free coding platform that offers code practice and mentorship on 67 different programming languages.
