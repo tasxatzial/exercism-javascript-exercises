@@ -36,10 +36,8 @@ export function ticketStatus(tickets, ticketId) {
   switch(ticketValue) {
     case undefined:
       return 'unknown ticket id';
-      break;
     case null:
       return 'not sold';
-      break;
     default:
       return 'sold to ' + ticketValue;
   }
@@ -54,11 +52,7 @@ export function ticketStatus(tickets, ticketId) {
  * @returns {string} ticket status
  */
 export function simpleTicketStatus(tickets, ticketId) {
-  const ticketValue = tickets[ticketId];
-  if (ticketValue === null || ticketValue === undefined) {
-    return 'invalid ticket !!!';
-  }
-  return ticketValue;
+    return tickets[ticketId] ?? 'invalid ticket !!!';
 }
 
 /**
