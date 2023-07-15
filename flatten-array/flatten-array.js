@@ -1,3 +1,8 @@
+// Solution 1
+
+/* Recursive and supports max flatten depth.
+May throw stack overflow error if actual array depth becomes too large  */
+
 export const flatten = (arr, depth = Infinity) => {
   return _flatten(arr, [], 0);
   
