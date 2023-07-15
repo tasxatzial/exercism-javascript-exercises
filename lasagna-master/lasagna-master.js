@@ -1,17 +1,6 @@
 /// <reference path="./global.d.ts" />
 // @ts-check
 
-/**
- * Implement the functions needed to solve the exercise here.
- * Do not forget to export them so they are available for the
- * tests. Here an example of the syntax as reminder:
- *
- * export function yourFunction(...) {
- *   ...
- * }
- */
-
-const PREPARATION_TIME_PER_LAYER = 2;
 const GRAMS_PER_NOODLES_LAYER = 50;
 const GRAMS_PER_SAUCE_LAYER = 0.2;
 
