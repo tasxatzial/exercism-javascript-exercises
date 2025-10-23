@@ -4,4 +4,4 @@
 
 ---
 
-This repo contains my solutions to the problems on the JavaScript track.
+This repo contains my solutions to the exercises on the JavaScript track.
