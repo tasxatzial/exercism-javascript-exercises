@@ -11,11 +11,13 @@ Go through the setup [instructions for JavaScript][docs-exercism-javascript] to 
 Install assignment dependencies:
 
 ```shell
-# Using npm
-npm install
+corepack pnpm install
+```
 
-# Alternatively using yarn
-yarn
+If `corepack` complains about not being enabled, you can do so by running:
+
+```bash
+corepack enable pnpm
 ```
 
 ## Making the test suite pass
@@ -24,11 +26,7 @@ All exercises come with a test suite to help you validate your solution before s
 You can execute these tests by opening a command prompt in the exercise's directory, and then running:
 
 ```bash
-# Using npm
-npm test
-
-# Alternatively using yarn
-yarn test
+corepack pnpm test
 ```
 
 In some test suites all tests but the first have been skipped.
@@ -47,7 +45,7 @@ exercism submit numbers.js custom.spec.js
 
 ## Submitting your solution
 
-You can submit your solution using the `exercism submit lasagna.js` command.
+You can submit your solution using the `exercism submit enchantments.js` command.
 This command will upload your solution to the Exercism website and print the solution page's URL.
 
 It's possible to submit an incomplete solution which allows you to:
@@ -60,6 +58,7 @@ It's possible to submit an incomplete solution which allows you to:
 If you'd like help solving the exercise, check the following pages:
 
 - The [JavaScript track's documentation](https://exercism.org/docs/tracks/javascript)
+- The [JavaScript track's programming category on the forum](https://forum.exercism.org/c/programming/javascript)
 - [Exercism's programming category on the forum](https://forum.exercism.org/c/programming/5)
 - The [Frequently Asked Questions](https://exercism.org/docs/using/faqs)
 
